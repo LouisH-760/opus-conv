@@ -89,4 +89,6 @@ def run(arguments):
     fileDict = treat(input, output)
     convert(fileDict)
 
-run(sys.argv[1:])
+if __name__ == "__main__":
+    # execute only if run as a script
+    run(sys.argv[1:])
