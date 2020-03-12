@@ -22,4 +22,4 @@ This script will convert all the files of specified formats to opus, and place t
     - `in`: the folder that holds the files to convert
 
 ### Description
-This script will convert all flac files in a folder to opus with a bitrate of 160k. The files will be put in the same folder as the original flac files, **which will be removed once the conversion is done**. This allows to basically "shrink" a music folder in place while preserving all other files (lossless music, cover art, cue files). This can be useful if you have a folder of flac files that you want to put on a mobile device and have a copy of the lossless files elsewhere
+This script will convert all flac files in a folder to opus with a bitrate of 160k. The files will be put in the same folder as the original flac files, **which will be removed once the conversion is done**. This allows to basically "shrink" a music folder in place while preserving all other files (lossy music, cover art, cue files). This can be useful if you have a folder of flac files that you want to put on a mobile device and have a copy of the lossless files elsewhere
