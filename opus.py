@@ -4,7 +4,7 @@ import sys              # used for the arguments
 from shutil import copy # used to copy the files that will not be converted to opus that are present
 
 LOSSLESS     = ["wav", "flac", "ape"]   # formats that will be converted to opus. Obviously, only lossless stuff
-TARGET       = ".opus"                  # target extension.
+TARGET       = ".opus"                  # target extension
 BITRATE      = "160k"                   # target bitrate
 FOLDER_DELIM = "/"                      # separator between folders
 
